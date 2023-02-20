@@ -4,7 +4,39 @@
   box-sizing: border-box;
 }
 
-h1 {
-  background-color: black;
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(173, 216, 230);
+}
+
+nav .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  background-color: rgb(218, 165, 32);
+  padding: 5px;
+  margin: 10px 0;
+}
+
+h1 a {
   color: yellow;
+  text-decoration: none;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar ul li {
+  margin-right: 10px;
+}
+
+nav .navbar button {
+  padding: 5px 15px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
 }
