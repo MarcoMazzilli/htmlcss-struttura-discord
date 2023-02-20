@@ -64,3 +64,46 @@ nav .navbar button {
   margin-right: 30px;
   padding: 10px;
 }
+/* ------------------------------------------------- */
+
+main section.white-bg {
+  padding: 30px 0;
+  background-color: rgb(167, 167, 167);
+}
+
+main section.gray-bg {
+  padding: 30px 0;
+  background-color: rgb(41, 41, 41);
+}
+
+main .container {
+  display: flex;
+  width: 70%;
+  height: 500px;
+  margin: auto;
+  background-color: azure;
+}
+
+main .container.download {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  width: 70%;
+  height: 500px;
+  margin: auto;
+  background-color: azure;
+}
+
+main .container .content-left {
+  width: 60%;
+  height: 100%;
+  background-color: rgb(30, 144, 255);
+}
+
+main .container .content-right {
+  background-color: rgb(255, 192, 203);
+  height: 100%;
+  width: 40%;
+  
+}
