@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+/* ------------------------------------ */
 nav {
   display: flex;
   justify-content: center;
@@ -39,4 +39,28 @@ nav .navbar button {
   border-radius: 10px;
   border: none;
   cursor: pointer;
+}
+/* ------------------------------ */
+
+.jumbotrone {
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+  height: 350px;
+  background-color: rgb(0, 0, 139);
+}
+
+.jumbotrone .jumbotrone-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 60%;
+  height: 50%;
+  background-color: rgb(238, 130, 238);
+  text-align: center;
+}
+
+.jumbotrone .jumbotrone-nav button {
+  margin-right: 30px;
+  padding: 10px;
 }
