@@ -3,7 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
-/* ------------------------------------ */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* ----NAV START----- */
+
 nav {
   display: flex;
   justify-content: center;
@@ -42,7 +49,10 @@ nav .navbar button {
   border: none;
   cursor: pointer;
 }
-/* ------------------------------ */
+
+/* ----NAV END----- */
+
+/* ----JUMBOTRONE START----- */
 
 .jumbotrone {
   display: flex;
@@ -67,15 +77,20 @@ nav .navbar button {
   margin-right: 30px;
   padding: 10px;
 }
-/* ------------------------------------------------- */
+
+/* ----JUMBOTRONE END----- */
+
+/* ----MAIN START----- */
+
+main section {
+  padding: 30px 0;
+}
 
 main section.white-bg {
-  padding: 30px 0;
   background-color: rgb(167, 167, 167);
 }
 
 main section.gray-bg {
-  padding: 30px 0;
   background-color: rgb(41, 41, 41);
 }
 
@@ -87,6 +102,18 @@ main .container {
   background-color: azure;
 }
 
+main .container .content-left {
+  width: 60%;
+  height: 100%;
+  background-color: rgb(30, 144, 255);
+}
+
+main .container .content-right {
+  height: 100%;
+  width: 40%;
+  background-color: rgb(255, 192, 203);
+}
+
 main .container.download {
   display: flex;
   flex-direction: column;
@@ -95,22 +122,11 @@ main .container.download {
   text-align: center;
   width: 70%;
   min-height: 500px;
-  margin: auto;
   background-color: azure;
 }
+/* ----MAIN END----- */
 
-main .container .content-left {
-  width: 60%;
-  height: 100%;
-  background-color: rgb(30, 144, 255);
-}
-
-main .container .content-right {
-  background-color: rgb(255, 192, 203);
-  height: 100%;
-  width: 40%;
-}
-/* --------------------------------------- */
+/* ----FOOTER START----- */
 
 footer {
   background-color: rgb(14, 29, 43);
@@ -149,24 +165,23 @@ footer nav .about {
   background-color: rgb(32, 178, 170);
   height: 100%;
   width: 15%;
-
 }
 
 footer nav .source {
   background-color: rgb(32, 178, 170);
   height: 100%;
   width: 15%;
-
 }
+
 footer nav .policy {
   background-color: rgb(32, 178, 170);
   height: 100%;
   width: 15%;
 }
-/* ------------------------------ */
+
 footer .container-register {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
   width: 70%;
