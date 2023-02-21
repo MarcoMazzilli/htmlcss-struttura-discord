@@ -133,53 +133,33 @@ footer {
   padding: 20px 0;
 }
 
-footer .container-nav {
+footer .container-top {
+  display: flex;
+  height: 100%;
   width: 70%;
   height: 400px;
-  background-color: brown;
+  background-color: brown; /*DEBUG*/
   margin: auto;
   margin-bottom: 30px;
 }
 
-nav {
-  display: flex;
-  height: 100%;
-}
-nav > div {
+.container-top > div {
   border: 1px solid black;
 }
 
-footer nav .social {
+.container-top > .col{
+  background-color: rgb(32, 178, 170);
+  height: 100%;
+  width: 15%;
+}
+
+.container-top > .col.social {
 height: 100%;
 width: 40%;
 background-color: rgb(240, 128, 128);
 }
 
-footer nav .product {
-background-color: rgb(32, 178, 170);
-height: 100%;
-width: 15%;
-}
-
-footer nav .about {
-  background-color: rgb(32, 178, 170);
-  height: 100%;
-  width: 15%;
-}
-
-footer nav .source {
-  background-color: rgb(32, 178, 170);
-  height: 100%;
-  width: 15%;
-}
-
-footer nav .policy {
-  background-color: rgb(32, 178, 170);
-  height: 100%;
-  width: 15%;
-}
-
-footer .container-register {
+footer .container-bottom {
   display: flex;
   justify-content: space-around;
   align-items: center;
